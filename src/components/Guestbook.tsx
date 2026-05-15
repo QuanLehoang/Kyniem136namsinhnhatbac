@@ -23,7 +23,7 @@ const Guestbook: React.FC = () => {
     } else {
       const initial = [
         { id: '1', name: 'Phan Hữu Đăng', location: 'Nghệ An', content: 'Chúc mừng sinh nhật Bác. Chúng cháu hứa sẽ luôn học tập và làm theo tấm gương đạo đức của Bác.', date: '2026-05-17' },
-        { id: '2', name: 'Trần Thị B', location: 'Nghệ An', content: 'Đời đời nhớ ơn Bác Hồ vĩ đại. Tình yêu của Bác dành cho thiếu nhi luôn là động lực cho chúng em.', date: '2026-05-19' },
+        { id: '2', name: 'Nguyễn Văn Nam', location: 'Nghệ An', content: 'Đời đời nhớ ơn Bác Hồ vĩ đại. Tình yêu của Bác dành cho thiếu nhi luôn là động lực cho chúng em.', date: '2026-05-19' },
       ];
       setMessages(initial);
       localStorage.setItem('bac_ho_messages', JSON.stringify(initial));

@@ -1,10 +1,9 @@
-import React, { useEffect, useRef } from 'react';
-
+import { useEffect, useRef } from 'react';
 const FallingPetals: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
+    const canvas = canvasRef.current!;
     if (!canvas) return;
 
     const ctx = canvas.getContext('2d');
